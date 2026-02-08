@@ -1,5 +1,4 @@
 from dsider.copier_runner import create_project
-
 from dsider.template_registry import TEMPLATES
 
 

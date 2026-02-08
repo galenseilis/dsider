@@ -5,21 +5,22 @@ from dsider.cli.commands import list_templates, new, update
 
 def main():
     parser = argparse.ArgumentParser(
-        description="dsider: Data Science project scaffolding tool"
+        # INFO:
+        description="dsider: Data Science project scaffolding tool",
     )
     subparsers = parser.add_subparsers(dest="command", required=True)
 
-    # new command
+    # INFO: new command
     new_parser = subparsers.add_parser(
-        "new", help="Create a new project from a template"
+        "new", help="Create a new project from a template",
     )
     new.add_arguments(new_parser)
 
-    # update command
+    # INFO: update command
     update_parser = subparsers.add_parser("update", help="Update an existing project")
     update.add_arguments(update_parser)
 
-    # list command
+    # INFO: list command
     list_parser = subparsers.add_parser("list", help="List available templates")
     list_templates.add_arguments(list_parser)
 
