@@ -15,7 +15,9 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
-dependencies = []
+dependencies = [
+    "copier>=9.11.3",
+]
 
 [project.urls]
 Homepage = "https://github.com/galenseilis/dsider"
@@ -23,5 +25,5 @@ Issues = "https://github.com/galenseilis/dsider/issues"
 
 [dependency-groups]
 dev = [
-    "prek>=0.3.2",
+    "prek>=0.3.2", # INFO: https://prek.j178.dev/installation/
 ]
