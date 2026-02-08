@@ -20,3 +20,8 @@ dependencies = []
 [project.urls]
 Homepage = "https://github.com/galenseilis/dsider"
 Issues = "https://github.com/galenseilis/dsider/issues"
+
+[dependency-groups]
+dev = [
+    "prek>=0.3.2",
+]
