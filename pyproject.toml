@@ -1,7 +1,7 @@
 [project]
 name = "dsider"
 version = "0.1.0"
-description = "Add your description here"
+description = "Data science project templating and management."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
